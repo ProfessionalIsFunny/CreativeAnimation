@@ -1,0 +1,22 @@
+{
+  "name": "EasyLayout",
+  "version": "0.5.0",
+  "summary": "This is an library for AutoLayout like Masonry but more, Just for fun and self-use.",
+  "homepage": "https://github.com/ProfessionalIsFunny/EasyLayout",
+  "license": "MIT",
+  "authors": {
+    "AugustRush": "liupingwei30@gmail.com"
+  },
+  "platforms": {
+    "ios": "6.0"
+  },
+  "source": {
+    "git": "https://github.com/ProfessionalIsFunny/EasyLayout.git",
+    "tag": "0.5.0"
+  },
+  "source_files": [
+    "EasyLayout",
+    "EasyLayout/**/*.{h,m}"
+  ],
+  "requires_arc": true
+}
