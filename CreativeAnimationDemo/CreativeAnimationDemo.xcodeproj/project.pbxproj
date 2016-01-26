@@ -16,6 +16,11 @@
 		97849D461C574D1C00EB7861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97849D441C574D1C00EB7861 /* LaunchScreen.storyboard */; };
 		97849D511C574D1C00EB7861 /* CreativeAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D501C574D1C00EB7861 /* CreativeAnimationDemoTests.m */; };
 		97849D5C1C574D1C00EB7861 /* CreativeAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D5B1C574D1C00EB7861 /* CreativeAnimationDemoUITests.m */; };
+		97849D6D1C5751D600EB7861 /* LWWAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D6C1C5751D600EB7861 /* LWWAnimator.m */; };
+		97849D701C57520700EB7861 /* LWWKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D6F1C57520700EB7861 /* LWWKeyFrame.m */; };
+		97849D731C57521800EB7861 /* LWWFilmStrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D721C57521800EB7861 /* LWWFilmStrip.m */; };
+		97849D771C57531200EB7861 /* LWWFilmScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D761C57531200EB7861 /* LWWFilmScrollViewController.m */; };
+		97849D7B1C5753CB00EB7861 /* LWWAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D7A1C5753CB00EB7861 /* LWWAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +60,16 @@
 		97849D571C574D1C00EB7861 /* CreativeAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreativeAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97849D5B1C574D1C00EB7861 /* CreativeAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreativeAnimationDemoUITests.m; sourceTree = "<group>"; };
 		97849D5D1C574D1C00EB7861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97849D6B1C5751D600EB7861 /* LWWAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWAnimator.h; sourceTree = "<group>"; };
+		97849D6C1C5751D600EB7861 /* LWWAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWAnimator.m; sourceTree = "<group>"; };
+		97849D6E1C57520700EB7861 /* LWWKeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWKeyFrame.h; sourceTree = "<group>"; };
+		97849D6F1C57520700EB7861 /* LWWKeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWKeyFrame.m; sourceTree = "<group>"; };
+		97849D711C57521800EB7861 /* LWWFilmStrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWFilmStrip.h; sourceTree = "<group>"; };
+		97849D721C57521800EB7861 /* LWWFilmStrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWFilmStrip.m; sourceTree = "<group>"; };
+		97849D751C57531200EB7861 /* LWWFilmScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWFilmScrollViewController.h; sourceTree = "<group>"; };
+		97849D761C57531200EB7861 /* LWWFilmScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWFilmScrollViewController.m; sourceTree = "<group>"; };
+		97849D791C5753CB00EB7861 /* LWWAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWAnimation.h; sourceTree = "<group>"; };
+		97849D7A1C5753CB00EB7861 /* LWWAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,9 +166,43 @@
 		97849D691C5750D700EB7861 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				97849D781C5753B300EB7861 /* Animations */,
+				97849D741C57525600EB7861 /* UI */,
+				97849D6A1C5751C700EB7861 /* Private */,
 			);
 			name = Source;
 			path = ../../Source;
+			sourceTree = "<group>";
+		};
+		97849D6A1C5751C700EB7861 /* Private */ = {
+			isa = PBXGroup;
+			children = (
+				97849D6B1C5751D600EB7861 /* LWWAnimator.h */,
+				97849D6C1C5751D600EB7861 /* LWWAnimator.m */,
+				97849D711C57521800EB7861 /* LWWFilmStrip.h */,
+				97849D721C57521800EB7861 /* LWWFilmStrip.m */,
+				97849D6E1C57520700EB7861 /* LWWKeyFrame.h */,
+				97849D6F1C57520700EB7861 /* LWWKeyFrame.m */,
+			);
+			path = Private;
+			sourceTree = "<group>";
+		};
+		97849D741C57525600EB7861 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				97849D751C57531200EB7861 /* LWWFilmScrollViewController.h */,
+				97849D761C57531200EB7861 /* LWWFilmScrollViewController.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		97849D781C5753B300EB7861 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				97849D791C5753CB00EB7861 /* LWWAnimation.h */,
+				97849D7A1C5753CB00EB7861 /* LWWAnimation.m */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 		A3137D6AA2E93EA0EDA870E0 /* Pods */ = {
@@ -355,8 +404,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				97849D3E1C574D1C00EB7861 /* ViewController.m in Sources */,
+				97849D731C57521800EB7861 /* LWWFilmStrip.m in Sources */,
+				97849D6D1C5751D600EB7861 /* LWWAnimator.m in Sources */,
+				97849D7B1C5753CB00EB7861 /* LWWAnimation.m in Sources */,
+				97849D701C57520700EB7861 /* LWWKeyFrame.m in Sources */,
 				97849D3B1C574D1C00EB7861 /* AppDelegate.m in Sources */,
 				97849D381C574D1C00EB7861 /* main.m in Sources */,
+				97849D771C57531200EB7861 /* LWWFilmScrollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
