@@ -8,6 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4A5A8D6FFDE955DF2850396A /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB392A9DE1DF0DC46370D8C /* libPods.a */; };
+		972180C31C5F500F005DF159 /* BIAnimatableProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180B31C5F500F005DF159 /* BIAnimatableProperty.m */; };
+		972180C41C5F500F005DF159 /* BIEasingCurveFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180B51C5F500F005DF159 /* BIEasingCurveFunction.m */; };
+		972180C51C5F500F005DF159 /* BIInterpolation.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180B71C5F500F005DF159 /* BIInterpolation.m */; };
+		972180C61C5F500F005DF159 /* BIIntroPageAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180BA1C5F500F005DF159 /* BIIntroPageAnimation.m */; };
+		972180C71C5F500F005DF159 /* BIIntroPageAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180BC1C5F500F005DF159 /* BIIntroPageAnimator.m */; };
+		972180C81C5F500F005DF159 /* BIIntroPageFilmStrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180BE1C5F500F005DF159 /* BIIntroPageFilmStrip.m */; };
+		972180C91C5F500F005DF159 /* BIIntroPageKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180C01C5F500F005DF159 /* BIIntroPageKeyFrame.m */; };
+		972180CA1C5F500F005DF159 /* BIIntroPageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180C21C5F500F005DF159 /* BIIntroPageScrollViewController.m */; };
+		972180CD1C5F51A8005DF159 /* ScrollAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 972180CC1C5F51A8005DF159 /* ScrollAnimationController.m */; };
 		97849D381C574D1C00EB7861 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D371C574D1C00EB7861 /* main.m */; };
 		97849D3B1C574D1C00EB7861 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D3A1C574D1C00EB7861 /* AppDelegate.m */; };
 		97849D3E1C574D1C00EB7861 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D3D1C574D1C00EB7861 /* ViewController.m */; };
@@ -16,11 +25,6 @@
 		97849D461C574D1C00EB7861 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97849D441C574D1C00EB7861 /* LaunchScreen.storyboard */; };
 		97849D511C574D1C00EB7861 /* CreativeAnimationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D501C574D1C00EB7861 /* CreativeAnimationDemoTests.m */; };
 		97849D5C1C574D1C00EB7861 /* CreativeAnimationDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D5B1C574D1C00EB7861 /* CreativeAnimationDemoUITests.m */; };
-		97849D6D1C5751D600EB7861 /* LWWAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D6C1C5751D600EB7861 /* LWWAnimator.m */; };
-		97849D701C57520700EB7861 /* LWWKeyFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D6F1C57520700EB7861 /* LWWKeyFrame.m */; };
-		97849D731C57521800EB7861 /* LWWFilmStrip.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D721C57521800EB7861 /* LWWFilmStrip.m */; };
-		97849D771C57531200EB7861 /* LWWFilmScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D761C57531200EB7861 /* LWWFilmScrollViewController.m */; };
-		97849D7B1C5753CB00EB7861 /* LWWAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 97849D7A1C5753CB00EB7861 /* LWWAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +48,25 @@
 		1CB392A9DE1DF0DC46370D8C /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		49B6598465AF803420570922 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		4DC2282ED3EB52895D0DE308 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		972180B21C5F500F005DF159 /* BIAnimatableProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIAnimatableProperty.h; sourceTree = "<group>"; };
+		972180B31C5F500F005DF159 /* BIAnimatableProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIAnimatableProperty.m; sourceTree = "<group>"; };
+		972180B41C5F500F005DF159 /* BIEasingCurveFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIEasingCurveFunction.h; sourceTree = "<group>"; };
+		972180B51C5F500F005DF159 /* BIEasingCurveFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIEasingCurveFunction.m; sourceTree = "<group>"; };
+		972180B61C5F500F005DF159 /* BIInterpolation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIInterpolation.h; sourceTree = "<group>"; };
+		972180B71C5F500F005DF159 /* BIInterpolation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIInterpolation.m; sourceTree = "<group>"; };
+		972180B81C5F500F005DF159 /* BIIntroPageAnimateProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIIntroPageAnimateProtocol.h; sourceTree = "<group>"; };
+		972180B91C5F500F005DF159 /* BIIntroPageAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIIntroPageAnimation.h; sourceTree = "<group>"; };
+		972180BA1C5F500F005DF159 /* BIIntroPageAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIIntroPageAnimation.m; sourceTree = "<group>"; };
+		972180BB1C5F500F005DF159 /* BIIntroPageAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIIntroPageAnimator.h; sourceTree = "<group>"; };
+		972180BC1C5F500F005DF159 /* BIIntroPageAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIIntroPageAnimator.m; sourceTree = "<group>"; };
+		972180BD1C5F500F005DF159 /* BIIntroPageFilmStrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIIntroPageFilmStrip.h; sourceTree = "<group>"; };
+		972180BE1C5F500F005DF159 /* BIIntroPageFilmStrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIIntroPageFilmStrip.m; sourceTree = "<group>"; };
+		972180BF1C5F500F005DF159 /* BIIntroPageKeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIIntroPageKeyFrame.h; sourceTree = "<group>"; };
+		972180C01C5F500F005DF159 /* BIIntroPageKeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIIntroPageKeyFrame.m; sourceTree = "<group>"; };
+		972180C11C5F500F005DF159 /* BIIntroPageScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIIntroPageScrollViewController.h; sourceTree = "<group>"; };
+		972180C21C5F500F005DF159 /* BIIntroPageScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BIIntroPageScrollViewController.m; sourceTree = "<group>"; };
+		972180CB1C5F51A8005DF159 /* ScrollAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollAnimationController.h; sourceTree = "<group>"; };
+		972180CC1C5F51A8005DF159 /* ScrollAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScrollAnimationController.m; sourceTree = "<group>"; };
 		97849D331C574D1C00EB7861 /* CreativeAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreativeAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97849D371C574D1C00EB7861 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		97849D391C574D1C00EB7861 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,16 +83,6 @@
 		97849D571C574D1C00EB7861 /* CreativeAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CreativeAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		97849D5B1C574D1C00EB7861 /* CreativeAnimationDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreativeAnimationDemoUITests.m; sourceTree = "<group>"; };
 		97849D5D1C574D1C00EB7861 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		97849D6B1C5751D600EB7861 /* LWWAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWAnimator.h; sourceTree = "<group>"; };
-		97849D6C1C5751D600EB7861 /* LWWAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWAnimator.m; sourceTree = "<group>"; };
-		97849D6E1C57520700EB7861 /* LWWKeyFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWKeyFrame.h; sourceTree = "<group>"; };
-		97849D6F1C57520700EB7861 /* LWWKeyFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWKeyFrame.m; sourceTree = "<group>"; };
-		97849D711C57521800EB7861 /* LWWFilmStrip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWFilmStrip.h; sourceTree = "<group>"; };
-		97849D721C57521800EB7861 /* LWWFilmStrip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWFilmStrip.m; sourceTree = "<group>"; };
-		97849D751C57531200EB7861 /* LWWFilmScrollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWFilmScrollViewController.h; sourceTree = "<group>"; };
-		97849D761C57531200EB7861 /* LWWFilmScrollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWFilmScrollViewController.m; sourceTree = "<group>"; };
-		97849D791C5753CB00EB7861 /* LWWAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LWWAnimation.h; sourceTree = "<group>"; };
-		97849D7A1C5753CB00EB7861 /* LWWAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LWWAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +111,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		972180B11C5F500F005DF159 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				97C74BFF1C5F5CFF0010E85A /* Components */,
+				97C74BFE1C5F5CE90010E85A /* Private */,
+				97C74BFD1C5F5CDA0010E85A /* Animation */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		97849D2A1C574D1C00EB7861 = {
 			isa = PBXGroup;
 			children = (
@@ -123,11 +146,13 @@
 		97849D351C574D1C00EB7861 /* CreativeAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				97849D691C5750D700EB7861 /* Source */,
+				972180B11C5F500F005DF159 /* Source */,
 				97849D391C574D1C00EB7861 /* AppDelegate.h */,
 				97849D3A1C574D1C00EB7861 /* AppDelegate.m */,
 				97849D3C1C574D1C00EB7861 /* ViewController.h */,
 				97849D3D1C574D1C00EB7861 /* ViewController.m */,
+				972180CB1C5F51A8005DF159 /* ScrollAnimationController.h */,
+				972180CC1C5F51A8005DF159 /* ScrollAnimationController.m */,
 				97849D3F1C574D1C00EB7861 /* Main.storyboard */,
 				97849D421C574D1C00EB7861 /* Assets.xcassets */,
 				97849D441C574D1C00EB7861 /* LaunchScreen.storyboard */,
@@ -163,46 +188,42 @@
 			path = CreativeAnimationDemoUITests;
 			sourceTree = "<group>";
 		};
-		97849D691C5750D700EB7861 /* Source */ = {
+		97C74BFD1C5F5CDA0010E85A /* Animation */ = {
 			isa = PBXGroup;
 			children = (
-				97849D781C5753B300EB7861 /* Animations */,
-				97849D741C57525600EB7861 /* UI */,
-				97849D6A1C5751C700EB7861 /* Private */,
+				972180B91C5F500F005DF159 /* BIIntroPageAnimation.h */,
+				972180BA1C5F500F005DF159 /* BIIntroPageAnimation.m */,
 			);
-			name = Source;
-			path = ../../Source;
+			name = Animation;
 			sourceTree = "<group>";
 		};
-		97849D6A1C5751C700EB7861 /* Private */ = {
+		97C74BFE1C5F5CE90010E85A /* Private */ = {
 			isa = PBXGroup;
 			children = (
-				97849D6B1C5751D600EB7861 /* LWWAnimator.h */,
-				97849D6C1C5751D600EB7861 /* LWWAnimator.m */,
-				97849D711C57521800EB7861 /* LWWFilmStrip.h */,
-				97849D721C57521800EB7861 /* LWWFilmStrip.m */,
-				97849D6E1C57520700EB7861 /* LWWKeyFrame.h */,
-				97849D6F1C57520700EB7861 /* LWWKeyFrame.m */,
+				972180B61C5F500F005DF159 /* BIInterpolation.h */,
+				972180B71C5F500F005DF159 /* BIInterpolation.m */,
+				972180B21C5F500F005DF159 /* BIAnimatableProperty.h */,
+				972180B31C5F500F005DF159 /* BIAnimatableProperty.m */,
+				972180B41C5F500F005DF159 /* BIEasingCurveFunction.h */,
+				972180B51C5F500F005DF159 /* BIEasingCurveFunction.m */,
+				972180B81C5F500F005DF159 /* BIIntroPageAnimateProtocol.h */,
+				972180BB1C5F500F005DF159 /* BIIntroPageAnimator.h */,
+				972180BC1C5F500F005DF159 /* BIIntroPageAnimator.m */,
+				972180BD1C5F500F005DF159 /* BIIntroPageFilmStrip.h */,
+				972180BE1C5F500F005DF159 /* BIIntroPageFilmStrip.m */,
+				972180BF1C5F500F005DF159 /* BIIntroPageKeyFrame.h */,
+				972180C01C5F500F005DF159 /* BIIntroPageKeyFrame.m */,
 			);
-			path = Private;
+			name = Private;
 			sourceTree = "<group>";
 		};
-		97849D741C57525600EB7861 /* UI */ = {
+		97C74BFF1C5F5CFF0010E85A /* Components */ = {
 			isa = PBXGroup;
 			children = (
-				97849D751C57531200EB7861 /* LWWFilmScrollViewController.h */,
-				97849D761C57531200EB7861 /* LWWFilmScrollViewController.m */,
+				972180C11C5F500F005DF159 /* BIIntroPageScrollViewController.h */,
+				972180C21C5F500F005DF159 /* BIIntroPageScrollViewController.m */,
 			);
-			path = UI;
-			sourceTree = "<group>";
-		};
-		97849D781C5753B300EB7861 /* Animations */ = {
-			isa = PBXGroup;
-			children = (
-				97849D791C5753CB00EB7861 /* LWWAnimation.h */,
-				97849D7A1C5753CB00EB7861 /* LWWAnimation.m */,
-			);
-			path = Animations;
+			name = Components;
 			sourceTree = "<group>";
 		};
 		A3137D6AA2E93EA0EDA870E0 /* Pods */ = {
@@ -404,13 +425,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				97849D3E1C574D1C00EB7861 /* ViewController.m in Sources */,
-				97849D731C57521800EB7861 /* LWWFilmStrip.m in Sources */,
-				97849D6D1C5751D600EB7861 /* LWWAnimator.m in Sources */,
-				97849D7B1C5753CB00EB7861 /* LWWAnimation.m in Sources */,
-				97849D701C57520700EB7861 /* LWWKeyFrame.m in Sources */,
+				972180CD1C5F51A8005DF159 /* ScrollAnimationController.m in Sources */,
+				972180C61C5F500F005DF159 /* BIIntroPageAnimation.m in Sources */,
+				972180CA1C5F500F005DF159 /* BIIntroPageScrollViewController.m in Sources */,
+				972180C51C5F500F005DF159 /* BIInterpolation.m in Sources */,
+				972180C81C5F500F005DF159 /* BIIntroPageFilmStrip.m in Sources */,
 				97849D3B1C574D1C00EB7861 /* AppDelegate.m in Sources */,
 				97849D381C574D1C00EB7861 /* main.m in Sources */,
-				97849D771C57531200EB7861 /* LWWFilmScrollViewController.m in Sources */,
+				972180C31C5F500F005DF159 /* BIAnimatableProperty.m in Sources */,
+				972180C41C5F500F005DF159 /* BIEasingCurveFunction.m in Sources */,
+				972180C91C5F500F005DF159 /* BIIntroPageKeyFrame.m in Sources */,
+				972180C71C5F500F005DF159 /* BIIntroPageAnimator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,9 +7,12 @@
 //
 
 #import "ViewController.h"
+#import <EasyLayout.h>
+#import "ScrollAnimationController.h"
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *button1;
 @end
 
 @implementation ViewController
@@ -17,6 +20,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+}
+- (IBAction)pushScrollAnimation:(id)sender {
+    ScrollAnimationController *animationController = [[ScrollAnimationController alloc] init];
+    [self presentViewController:animationController animated:YES completion:nil];
 }
 
 - (void)didReceiveMemoryWarning {
